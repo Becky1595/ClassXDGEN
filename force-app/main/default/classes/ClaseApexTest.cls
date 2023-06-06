@@ -13,6 +13,7 @@ public with sharing class ClaseApexTest {
         System.debug('Valores: ' + count + ' price ' + price + ' isActive ' + isActive);
         System.debug('Valores: ' + name + ' fecha ' + fecha );
         System.debug('Valores: ' + fecha_hora + ' hora ' + hora );
+        System.debug('Valores: ' + fecha_hora + ' hora ' + hora );
 
         casa home = new casa();
         home.sala = 'Sofa';
