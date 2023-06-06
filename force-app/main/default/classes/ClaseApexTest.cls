@@ -163,17 +163,4 @@ public with sharing class ClaseApexTest {
         return a*b;
     }
 
-    // Manejo de objetos dentro de apex
-    /*public static void manejoDeObjetos() {
-        Account acc = new Account();
-        acc.Name = 'Acme Asociados';
-        acc.Phone = '2295678934';
-        insert acc;
-
-        Account acc2 = [SELECT Name, Phone FROM Account WHERE Name = 'Acme Asociados'];
-        acc2.Phone = '2295678957';
-        update acc2;
-
-    }*/
-
 }
