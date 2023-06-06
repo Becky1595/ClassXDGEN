@@ -164,7 +164,7 @@ public with sharing class ClaseApexTest {
     }
 
     // Manejo de objetos dentro de apex
-    public static void manejoDeObjetos() {
+    /*public static void manejoDeObjetos() {
         Account acc = new Account();
         acc.Name = 'Acme Asociados';
         acc.Phone = '2295678934';
@@ -174,6 +174,6 @@ public with sharing class ClaseApexTest {
         acc2.Phone = '2295678957';
         update acc2;
 
-    }
+    }*/
 
 }
